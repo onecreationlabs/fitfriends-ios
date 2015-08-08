@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95DA1CF61B75A87D004FA2DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DA1CF51B75A87D004FA2DC /* AppDelegate.swift */; };
+		95DA1CF81B75A87D004FA2DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DA1CF71B75A87D004FA2DC /* ViewController.swift */; };
+		95DA1CFB1B75A87D004FA2DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DA1CF91B75A87D004FA2DC /* Main.storyboard */; };
+		95DA1CFD1B75A87D004FA2DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DA1CFC1B75A87D004FA2DC /* Images.xcassets */; };
+		95DA1D001B75A87D004FA2DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95DA1CFE1B75A87D004FA2DC /* LaunchScreen.xib */; };
+		95DA1D0C1B75A87D004FA2DC /* FitFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DA1D0B1B75A87D004FA2DC /* FitFriendsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95DA1D061B75A87D004FA2DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95DA1CE81B75A87D004FA2DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95DA1CEF1B75A87D004FA2DC;
+			remoteInfo = FitFriends;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95DA1CF01B75A87D004FA2DC /* FitFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DA1CF41B75A87D004FA2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95DA1CF51B75A87D004FA2DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95DA1CF71B75A87D004FA2DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95DA1CFA1B75A87D004FA2DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95DA1CFC1B75A87D004FA2DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		95DA1CFF1B75A87D004FA2DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		95DA1D051B75A87D004FA2DC /* FitFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DA1D0A1B75A87D004FA2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95DA1D0B1B75A87D004FA2DC /* FitFriendsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFriendsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95DA1CED1B75A87D004FA2DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DA1D021B75A87D004FA2DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95DA1CE71B75A87D004FA2DC = {
+			isa = PBXGroup;
+			children = (
+				95DA1CF21B75A87D004FA2DC /* FitFriends */,
+				95DA1D081B75A87D004FA2DC /* FitFriendsTests */,
+				95DA1CF11B75A87D004FA2DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95DA1CF11B75A87D004FA2DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95DA1CF01B75A87D004FA2DC /* FitFriends.app */,
+				95DA1D051B75A87D004FA2DC /* FitFriendsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95DA1CF21B75A87D004FA2DC /* FitFriends */ = {
+			isa = PBXGroup;
+			children = (
+				95DA1CF51B75A87D004FA2DC /* AppDelegate.swift */,
+				95DA1CF71B75A87D004FA2DC /* ViewController.swift */,
+				95DA1CF91B75A87D004FA2DC /* Main.storyboard */,
+				95DA1CFC1B75A87D004FA2DC /* Images.xcassets */,
+				95DA1CFE1B75A87D004FA2DC /* LaunchScreen.xib */,
+				95DA1CF31B75A87D004FA2DC /* Supporting Files */,
+			);
+			path = FitFriends;
+			sourceTree = "<group>";
+		};
+		95DA1CF31B75A87D004FA2DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95DA1CF41B75A87D004FA2DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95DA1D081B75A87D004FA2DC /* FitFriendsTests */ = {
+			isa = PBXGroup;
+			children = (
+				95DA1D0B1B75A87D004FA2DC /* FitFriendsTests.swift */,
+				95DA1D091B75A87D004FA2DC /* Supporting Files */,
+			);
+			path = FitFriendsTests;
+			sourceTree = "<group>";
+		};
+		95DA1D091B75A87D004FA2DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95DA1D0A1B75A87D004FA2DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95DA1CEF1B75A87D004FA2DC /* FitFriends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DA1D0F1B75A87D004FA2DC /* Build configuration list for PBXNativeTarget "FitFriends" */;
+			buildPhases = (
+				95DA1CEC1B75A87D004FA2DC /* Sources */,
+				95DA1CED1B75A87D004FA2DC /* Frameworks */,
+				95DA1CEE1B75A87D004FA2DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitFriends;
+			productName = FitFriends;
+			productReference = 95DA1CF01B75A87D004FA2DC /* FitFriends.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95DA1D041B75A87D004FA2DC /* FitFriendsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DA1D121B75A87D004FA2DC /* Build configuration list for PBXNativeTarget "FitFriendsTests" */;
+			buildPhases = (
+				95DA1D011B75A87D004FA2DC /* Sources */,
+				95DA1D021B75A87D004FA2DC /* Frameworks */,
+				95DA1D031B75A87D004FA2DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95DA1D071B75A87D004FA2DC /* PBXTargetDependency */,
+			);
+			name = FitFriendsTests;
+			productName = FitFriendsTests;
+			productReference = 95DA1D051B75A87D004FA2DC /* FitFriendsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95DA1CE81B75A87D004FA2DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Dennis Adjei-Baah";
+				TargetAttributes = {
+					95DA1CEF1B75A87D004FA2DC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					95DA1D041B75A87D004FA2DC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 95DA1CEF1B75A87D004FA2DC;
+					};
+				};
+			};
+			buildConfigurationList = 95DA1CEB1B75A87D004FA2DC /* Build configuration list for PBXProject "FitFriends" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95DA1CE71B75A87D004FA2DC;
+			productRefGroup = 95DA1CF11B75A87D004FA2DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95DA1CEF1B75A87D004FA2DC /* FitFriends */,
+				95DA1D041B75A87D004FA2DC /* FitFriendsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95DA1CEE1B75A87D004FA2DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DA1CFB1B75A87D004FA2DC /* Main.storyboard in Resources */,
+				95DA1D001B75A87D004FA2DC /* LaunchScreen.xib in Resources */,
+				95DA1CFD1B75A87D004FA2DC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DA1D031B75A87D004FA2DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95DA1CEC1B75A87D004FA2DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DA1CF81B75A87D004FA2DC /* ViewController.swift in Sources */,
+				95DA1CF61B75A87D004FA2DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DA1D011B75A87D004FA2DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DA1D0C1B75A87D004FA2DC /* FitFriendsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95DA1D071B75A87D004FA2DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95DA1CEF1B75A87D004FA2DC /* FitFriends */;
+			targetProxy = 95DA1D061B75A87D004FA2DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95DA1CF91B75A87D004FA2DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95DA1CFA1B75A87D004FA2DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95DA1CFE1B75A87D004FA2DC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95DA1CFF1B75A87D004FA2DC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95DA1D0D1B75A87D004FA2DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95DA1D0E1B75A87D004FA2DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95DA1D101B75A87D004FA2DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FitFriends/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95DA1D111B75A87D004FA2DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FitFriends/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95DA1D131B75A87D004FA2DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FitFriendsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitFriends.app/FitFriends";
+			};
+			name = Debug;
+		};
+		95DA1D141B75A87D004FA2DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FitFriendsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitFriends.app/FitFriends";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95DA1CEB1B75A87D004FA2DC /* Build configuration list for PBXProject "FitFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DA1D0D1B75A87D004FA2DC /* Debug */,
+				95DA1D0E1B75A87D004FA2DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95DA1D0F1B75A87D004FA2DC /* Build configuration list for PBXNativeTarget "FitFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DA1D101B75A87D004FA2DC /* Debug */,
+				95DA1D111B75A87D004FA2DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95DA1D121B75A87D004FA2DC /* Build configuration list for PBXNativeTarget "FitFriendsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DA1D131B75A87D004FA2DC /* Debug */,
+				95DA1D141B75A87D004FA2DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95DA1CE81B75A87D004FA2DC /* Project object */;
+}
