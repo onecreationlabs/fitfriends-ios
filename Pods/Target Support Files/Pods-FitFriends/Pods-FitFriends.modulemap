@@ -1,0 +1,6 @@
+framework module Pods_FitFriends {
+  umbrella header "Pods-FitFriends-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26D4E50980D81F66682BD188 /* Pods_FitFriends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB6E674340178A67879ED89 /* Pods_FitFriends.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		958A2E471B82D1B200EAA04E /* ActivityViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 958A2E461B82D1B200EAA04E /* ActivityViewCell.xib */; };
 		95DA1CF61B75A87D004FA2DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DA1CF51B75A87D004FA2DC /* AppDelegate.swift */; };
-		95DA1CF81B75A87D004FA2DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DA1CF71B75A87D004FA2DC /* ViewController.swift */; };
 		95DA1CFB1B75A87D004FA2DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DA1CF91B75A87D004FA2DC /* Main.storyboard */; };
 		95DA1CFD1B75A87D004FA2DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DA1CFC1B75A87D004FA2DC /* Images.xcassets */; };
 		95DA1D001B75A87D004FA2DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95DA1CFE1B75A87D004FA2DC /* LaunchScreen.xib */; };
 		95DA1D0C1B75A87D004FA2DC /* FitFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DA1D0B1B75A87D004FA2DC /* FitFriendsTests.swift */; };
+		95DA1D171B763F5D004FA2DC /* ActivitiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DA1D161B763F5D004FA2DC /* ActivitiesController.swift */; };
+		95DA1D191B76626F004FA2DC /* ActivityPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DA1D181B76626F004FA2DC /* ActivityPost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +29,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09099782E30E42808A358E16 /* Pods-FitFriends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitFriends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitFriends/Pods-FitFriends.debug.xcconfig"; sourceTree = "<group>"; };
+		958A2E461B82D1B200EAA04E /* ActivityViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityViewCell.xib; sourceTree = "<group>"; };
 		95DA1CF01B75A87D004FA2DC /* FitFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DA1CF41B75A87D004FA2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95DA1CF51B75A87D004FA2DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95DA1CF71B75A87D004FA2DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95DA1CFA1B75A87D004FA2DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95DA1CFC1B75A87D004FA2DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		95DA1CFF1B75A87D004FA2DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		95DA1D051B75A87D004FA2DC /* FitFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DA1D0A1B75A87D004FA2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95DA1D0B1B75A87D004FA2DC /* FitFriendsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFriendsTests.swift; sourceTree = "<group>"; };
+		95DA1D151B75B300004FA2DC /* fitFriends-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fitFriends-Prefix.pch"; sourceTree = "<group>"; };
+		95DA1D161B763F5D004FA2DC /* ActivitiesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesController.swift; sourceTree = "<group>"; };
+		95DA1D181B76626F004FA2DC /* ActivityPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityPost.swift; sourceTree = "<group>"; };
+		A62AF74C3A17ECB106BFE557 /* Pods-FitFriends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitFriends.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitFriends/Pods-FitFriends.release.xcconfig"; sourceTree = "<group>"; };
+		FEB6E674340178A67879ED89 /* Pods_FitFriends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitFriends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D4E50980D81F66682BD188 /* Pods_FitFriends.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +66,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10A147A6377EF38E3DEA3214 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEB6E674340178A67879ED89 /* Pods_FitFriends.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F55F03D43DE11A90814D3CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09099782E30E42808A358E16 /* Pods-FitFriends.debug.xcconfig */,
+				A62AF74C3A17ECB106BFE557 /* Pods-FitFriends.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		95DA1CE71B75A87D004FA2DC = {
 			isa = PBXGroup;
 			children = (
 				95DA1CF21B75A87D004FA2DC /* FitFriends */,
 				95DA1D081B75A87D004FA2DC /* FitFriendsTests */,
 				95DA1CF11B75A87D004FA2DC /* Products */,
+				6F55F03D43DE11A90814D3CE /* Pods */,
+				10A147A6377EF38E3DEA3214 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +107,14 @@
 			isa = PBXGroup;
 			children = (
 				95DA1CF51B75A87D004FA2DC /* AppDelegate.swift */,
-				95DA1CF71B75A87D004FA2DC /* ViewController.swift */,
 				95DA1CF91B75A87D004FA2DC /* Main.storyboard */,
 				95DA1CFC1B75A87D004FA2DC /* Images.xcassets */,
 				95DA1CFE1B75A87D004FA2DC /* LaunchScreen.xib */,
 				95DA1CF31B75A87D004FA2DC /* Supporting Files */,
+				95DA1D151B75B300004FA2DC /* fitFriends-Prefix.pch */,
+				95DA1D161B763F5D004FA2DC /* ActivitiesController.swift */,
+				95DA1D181B76626F004FA2DC /* ActivityPost.swift */,
+				958A2E461B82D1B200EAA04E /* ActivityViewCell.xib */,
 			);
 			path = FitFriends;
 			sourceTree = "<group>";
@@ -119,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95DA1D0F1B75A87D004FA2DC /* Build configuration list for PBXNativeTarget "FitFriends" */;
 			buildPhases = (
+				9C005209FCB2785FF9A474B2 /* Check Pods Manifest.lock */,
 				95DA1CEC1B75A87D004FA2DC /* Sources */,
 				95DA1CED1B75A87D004FA2DC /* Frameworks */,
 				95DA1CEE1B75A87D004FA2DC /* Resources */,
+				09D5BF960D5B4569738A84F6 /* Embed Pods Frameworks */,
+				3F19CBC6D9170DAB79CFDACF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +191,8 @@
 		95DA1CE81B75A87D004FA2DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Dennis Adjei-Baah";
 				TargetAttributes = {
@@ -193,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95DA1CFB1B75A87D004FA2DC /* Main.storyboard in Resources */,
+				958A2E471B82D1B200EAA04E /* ActivityViewCell.xib in Resources */,
 				95DA1D001B75A87D004FA2DC /* LaunchScreen.xib in Resources */,
 				95DA1CFD1B75A87D004FA2DC /* Images.xcassets in Resources */,
 			);
@@ -207,12 +245,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09D5BF960D5B4569738A84F6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitFriends/Pods-FitFriends-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F19CBC6D9170DAB79CFDACF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitFriends/Pods-FitFriends-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C005209FCB2785FF9A474B2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95DA1CEC1B75A87D004FA2DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95DA1CF81B75A87D004FA2DC /* ViewController.swift in Sources */,
+				95DA1D191B76626F004FA2DC /* ActivityPost.swift in Sources */,
+				95DA1D171B763F5D004FA2DC /* ActivitiesController.swift in Sources */,
 				95DA1CF61B75A87D004FA2DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +382,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "FitFriends/fitFriends-Prefix.pch";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -333,6 +421,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "FitFriends/fitFriends-Prefix.pch";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -340,20 +429,64 @@
 		};
 		95DA1D101B75A87D004FA2DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09099782E30E42808A358E16 /* Pods-FitFriends.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILT_PRODUCTS_DIR)/../../Headers",
+				);
 				INFOPLIST_FILE = FitFriends/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"ISO8601DateFormatterValueTransformer\"",
+					"-framework",
+					"\"RKValueTransformers\"",
+					"-framework",
+					"\"RestKit\"",
+					"-framework",
+					"\"SOCKit\"",
+					"-framework",
+					"\"TransitionKit\"",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		95DA1D111B75A87D004FA2DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62AF74C3A17ECB106BFE557 /* Pods-FitFriends.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILT_PRODUCTS_DIR)/../../Headers",
+				);
 				INFOPLIST_FILE = FitFriends/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"ISO8601DateFormatterValueTransformer\"",
+					"-framework",
+					"\"RKValueTransformers\"",
+					"-framework",
+					"\"RestKit\"",
+					"-framework",
+					"\"SOCKit\"",
+					"-framework",
+					"\"TransitionKit\"",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -411,6 +544,7 @@
 				95DA1D111B75A87D004FA2DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95DA1D121B75A87D004FA2DC /* Build configuration list for PBXNativeTarget "FitFriendsTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +553,7 @@
 				95DA1D141B75A87D004FA2DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

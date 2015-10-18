@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import RestKit
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        configureRestEndpoint()
         return true
     }
 
@@ -39,6 +42,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func configureRestEndpoint(){
+        let baseUrl = NSURL(string: "https://tranquil-brushlands-4819.herokuapp.com:443")
+        let client = AFHTTPClient(baseURL: baseUrl)
+        let objectManager = RKObjectManager(HTTPClient: client)
+        objectManager.addResponseDescriptor(ActivityPost.initDomain())
+        
+        
     }
 
 
