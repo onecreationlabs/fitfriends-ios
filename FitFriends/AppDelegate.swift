@@ -45,10 +45,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func configureRestEndpoint(){
-        let baseUrl = NSURL(string: "https://tranquil-brushlands-4819.herokuapp.com:443")
+        let requestDescriptors = [ActivityPost.initRequestDescriptor()]
+        let responseDescriptors = [ActivityPost.initResponseDescriptor()]
+        let baseUrl = NSURL(string: "http://localhost:3000")
         let client = AFHTTPClient(baseURL: baseUrl)
         let objectManager = RKObjectManager(HTTPClient: client)
-        objectManager.addResponseDescriptor(ActivityPost.initDomain())
+        objectManager.HTTPClient.allowsInvalidSSLCertificate = true
+        objectManager.HTTPClient.defaultSSLPinningMode = AFSSLPinningModeNone
+        objectManager.addResponseDescriptorsFromArray(responseDescriptors)
+        objectManager.addRequestDescriptorsFromArray(requestDescriptors)
         
         
     }

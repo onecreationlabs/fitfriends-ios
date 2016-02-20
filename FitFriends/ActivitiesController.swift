@@ -14,17 +14,21 @@ import DateTools
 
 class ActivityViewCell:UITableViewCell{
     @IBOutlet var activityName:UILabel?
-    //@IBOutlet var location:UILabel?
     @IBOutlet var datePosted:UILabel?
+    @IBOutlet var activityLocationName:UILabel?
+    @IBOutlet var participants:UILabel?
     
     func initActivity(post:ActivityPost){
         
         activityName?.text = post.activityName
        datePosted?.text = post.dateposted.timeAgoSinceNow()
+        activityLocationName?.text = post.activityLocationName
+        participants?.text = post.participants.stringValue
+        
     }
 }
 
-class ActivitiesController: UITableViewController, UITableViewDataSource, UITableViewDelegate {
+class ActivitiesController: UITableViewController {
     var activities:[ActivityPost] = []
     
     override func viewDidAppear(animated: Bool) {
@@ -49,7 +53,8 @@ class ActivitiesController: UITableViewController, UITableViewDataSource, UITabl
     }
     
     func loadActivites(){
-        RKObjectManager.sharedManager().getObjectsAtPath("/api/Activityposts", parameters: nil, success: {(request , results) -> Void in
+        
+        RKObjectManager.sharedManager().getObjectsAtPath(ActivityPost.activityPostPath, parameters: nil, success: {(request , results) -> Void in
         self.activities = results!.array() as! [ActivityPost]
             self.tableView.reloadData()
             }, failure:{ (operation, error) -> Void in

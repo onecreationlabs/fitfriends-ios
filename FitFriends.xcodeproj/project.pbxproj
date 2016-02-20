@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		26D4E50980D81F66682BD188 /* Pods_FitFriends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB6E674340178A67879ED89 /* Pods_FitFriends.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		956AB6BC1BE8835800967A7E /* PostActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956AB6BB1BE8835800967A7E /* PostActivityController.swift */; };
 		958A2E471B82D1B200EAA04E /* ActivityViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 958A2E461B82D1B200EAA04E /* ActivityViewCell.xib */; };
 		95DA1CF61B75A87D004FA2DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DA1CF51B75A87D004FA2DC /* AppDelegate.swift */; };
 		95DA1CFB1B75A87D004FA2DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DA1CF91B75A87D004FA2DC /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		09099782E30E42808A358E16 /* Pods-FitFriends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitFriends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitFriends/Pods-FitFriends.debug.xcconfig"; sourceTree = "<group>"; };
+		956AB6BB1BE8835800967A7E /* PostActivityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostActivityController.swift; sourceTree = "<group>"; };
 		958A2E461B82D1B200EAA04E /* ActivityViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityViewCell.xib; sourceTree = "<group>"; };
 		95DA1CF01B75A87D004FA2DC /* FitFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DA1CF41B75A87D004FA2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				95DA1D161B763F5D004FA2DC /* ActivitiesController.swift */,
 				95DA1D181B76626F004FA2DC /* ActivityPost.swift */,
 				958A2E461B82D1B200EAA04E /* ActivityViewCell.xib */,
+				956AB6BB1BE8835800967A7E /* PostActivityController.swift */,
 			);
 			path = FitFriends;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			files = (
 				95DA1D191B76626F004FA2DC /* ActivityPost.swift in Sources */,
 				95DA1D171B763F5D004FA2DC /* ActivitiesController.swift in Sources */,
+				956AB6BC1BE8835800967A7E /* PostActivityController.swift in Sources */,
 				95DA1CF61B75A87D004FA2DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,7 +373,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
-					"$(inherited)",
+					"_AFNETWORKING_ALLOW_INVALID_SSL_CERTIFICATES_=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -412,6 +416,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
